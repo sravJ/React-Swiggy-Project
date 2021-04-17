@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+.customImage{
+  width: 180px;
+  height: 70px;
+  margin-top: 62px;
+}
+
+.customSection{
+  height: 600px;
+}
+
+.customDiv{
+  background-image: url("./assets/food.webp");
+  height: 600px;
+  background-size: 100%;
+  background-position: 100%;
+}
+
+.customButton1{
+  margin-top: 80px !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: black !important;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.3px !important;
+  padding: 0px 30px 0px 10px !important;
+}
+
+.customButton1:hover{
+  color: orange !important;
+}
+
+.customButton2{
+  margin-top: 80px !important;
+  background-color: black !important;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.3px !important;
+  border-radius: 0px !important;
+  padding: 8px 28px !important;
+}
+
+.customH1{
+  margin-top: 70px;
+  margin-bottom: 0px;
+  margin-left: 125px;
+}
+
+.customH2{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 125px;
+  font-size: 20px;
+  font-weight: 300;
+  width: 600px;
+  margin-top: 0;
+  line-height: 40px;
+  letter-spacing: -.3px;
+  color: #686b78;
+}
+
+.customGrid{
+  margin-top: 30px;
+}
+
+.customGrid1{
+  margin-top: -48px;
+}
+
+.marginTop{
+  margin-top: 0px !important;
+}
+
+.customInput{
+  width: 450px;
+}
+
+.customInput input{
+  border: 1px solid #bebfc5;
+  padding: 18px 18px;
+  color: #686b78;
+  font-size: 16px !important;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  caret-color: #fc8019;
+}
+
+.customInput input::placeholder{
+  color: #000000;
+  font-weight: 900;
+  font-family: inherit;
+}
+
+.customInput input:focus{
+  border: 1px solid #fc8019;
+}
+
+.customDiv2{
+  display: flex;
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.customLocation{
+  position: absolute !important;
+  left: 460px !important;
+  top: 323px !important;
+  text-transform: capitalize !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  padding: 10px 12px !important;
+  color: #535665 !important;
+  letter-spacing: 0.5px !important;
+  border-radius: 0px !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.customLocatiom:hover{
+  background-color: #e0e0e0 !important;
+}
+
+.customIcon{
+  font-size: small !important;
+}
+
+.customSpan{
+  padding-left: 5px !important;
+}
+
+.customButton3{
+  border-radius: 0px !important;
+  position: absolute !important;
+  right: 825px !important;
+  padding: 16.5px 20px !important;
+  font-size: 14px !important;
+  font-weight: 900 !important;
+  letter-spacing: .53px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: #fc8019 !important;
+}
