@@ -27,25 +27,34 @@ function App() {
                   </Button>
               </Grid>
               </Grid>
-              <h1 className="customH1">Hungry?</h1>
-              <h2 className="customH2">Order food from favourite restaurants near you.</h2>
           </Container>
           <Container>
             <Grid container="container" spacing={24}>
               <Grid item="item" xs={2}></Grid>
-              <Grid className="customGrid" item="item" xs={10}>
+              <Grid item="item" xs={10}>
+                <h1 className="customH1">Hungry?</h1>
+                <h2 className="customH2">Order food from favourite restaurants near you.</h2>
+              </Grid>
+              </Grid>
+          </Container>
+          <Container>
+            <Grid container="container" spacing={24}>
+              <Grid item="item" xs={2}></Grid>
+              <Grid className="customGrid" item="item" xs={7}>
                 <div className="customDiv2">
                 <InputBase
                     className="customInput"
                     placeholder="Enter your delivery location"
                     inputProps={{ 'aria-label': 'search google maps' }}
                 />
-              <Button className="customLocation"><MyLocationIcon className="customIcon" /><span className="customSpan">Locate Me</span></Button>
-                <Button variant="contained" color="primary" className="customButton3">
-                    Find food
-                </Button>
               </div>
               </Grid>
+                <Grid className="customGrid" item="item" xs={3}>
+                  <Button className="customLocation"><MyLocationIcon className="customIcon" /><span className="customSpan">Locate Me</span></Button>
+                    <Button variant="contained" color="primary" className="customButton3">
+                        Find Food
+                    </Button>
+                </Grid>
               </Grid>
           </Container>
         </Grid>
