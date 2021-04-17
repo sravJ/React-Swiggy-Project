@@ -44,13 +44,12 @@
 
 .customH1{
   margin-top: 70px;
-  margin-bottom: 0px;
-  margin-left: 125px;
+  margin-left: 15px;
 }
 
 .customH2{
   font-family: 'Montserrat', sans-serif;
-  margin-left: 125px;
+  margin-left: 15px;
   font-size: 20px;
   font-weight: 300;
   width: 600px;
@@ -73,7 +72,7 @@
 }
 
 .customInput{
-  width: 450px;
+  width: 460px;
 }
 
 .customInput input{
@@ -105,8 +104,8 @@
 
 .customLocation{
   position: absolute !important;
-  left: 460px !important;
-  top: 323px !important;
+  left: 500px !important;
+  top: 340px !important;
   text-transform: capitalize !important;
   font-size: 12px !important;
   font-weight: 600 !important;
@@ -132,7 +131,6 @@
 .customButton3{
   border-radius: 0px !important;
   position: absolute !important;
-  right: 825px !important;
   padding: 16.5px 20px !important;
   font-size: 14px !important;
   font-weight: 900 !important;
